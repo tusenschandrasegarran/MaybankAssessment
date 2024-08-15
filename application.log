@@ -1,0 +1,247 @@
+2024-08-15 23:26:34 [restartedMain] INFO  c.t.s.SpringBootProjectApplication - Starting SpringBootProjectApplication using Java 17.0.12 with PID 26206 (/Users/tusen/Documents/Developer/Maybank assestment/MaybankAssessment/target/classes started by tusen in /Users/tusen/Documents/Developer/Maybank assestment/MaybankAssessment)
+2024-08-15 23:26:34 [restartedMain] INFO  c.t.s.SpringBootProjectApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-15 23:26:34 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-15 23:26:34 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-15 23:26:35 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-15 23:26:35 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46 ms. Found 1 JPA repository interface.
+2024-08-15 23:26:35 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-08-15 23:26:35 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-15 23:26:35 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-15 23:26:35 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-15 23:26:35 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 500 ms
+2024-08-15 23:26:35 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-08-15 23:26:35 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@71e2ed22
+2024-08-15 23:26:35 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-08-15 23:26:35 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-15 23:26:35 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-15 23:26:35 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-08-15 23:26:35 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-15 23:26:36 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-15 23:26:36 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-15 23:26:36 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-15 23:26:36 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 9 mappings in 'requestMappingHandlerMapping'
+2024-08-15 23:26:36 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-08-15 23:26:36 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-08-15 23:26:36 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-08-15 23:26:36 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-08-15 23:26:36 [restartedMain] ERROR i.n.r.d.DnsServerAddressStreamProviders - Unable to load io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'. Use DEBUG level to see the full stack: java.lang.UnsatisfiedLinkError: failed to load the required native library
+2024-08-15 23:26:36 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-08-15 23:26:36 [restartedMain] INFO  c.t.s.SpringBootProjectApplication - Started SpringBootProjectApplication in 1.61 seconds (process running for 1.834)
+2024-08-15 23:27:53 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-15 23:27:53 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-15 23:27:53 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2024-08-15 23:27:53 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2024-08-15 23:27:53 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2024-08-15 23:27:53 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@243f66a2
+2024-08-15 23:27:53 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@78c62cda
+2024-08-15 23:27:53 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-08-15 23:27:53 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-08-15 23:27:53 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - POST "/students/add", parameters={}
+2024-08-15 23:27:53 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.tusen.springBootProject.rest.StudentsRestController#addStudents(Students)
+2024-08-15 23:27:53 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Students{id=0, firstName='Apple', lastName='Ball', email='apple@gmail.com'}]
+2024-08-15 23:27:53 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json]
+2024-08-15 23:27:53 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Students{id=17, firstName='Apple', lastName='Ball', email='apple@gmail.com'}]
+2024-08-15 23:27:53 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-08-15 23:28:11 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - POST "/students/add", parameters={}
+2024-08-15 23:28:11 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.tusen.springBootProject.rest.StudentsRestController#addStudents(Students)
+2024-08-15 23:28:11 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Students{id=0, firstName='Car', lastName='Dog', email='car@gmail.com'}]
+2024-08-15 23:28:11 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json]
+2024-08-15 23:28:11 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Students{id=18, firstName='Car', lastName='Dog', email='car@gmail.com'}]
+2024-08-15 23:28:11 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-08-15 23:28:49 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - POST "/students/add", parameters={}
+2024-08-15 23:28:49 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.tusen.springBootProject.rest.StudentsRestController#addStudents(Students)
+2024-08-15 23:28:49 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Students{id=0, firstName='Eagle', lastName='Fish', email='eagle@gmail.com'}]
+2024-08-15 23:28:49 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json]
+2024-08-15 23:28:49 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Students{id=19, firstName='Eagle', lastName='Fish', email='eagle@gmail.com'}]
+2024-08-15 23:28:49 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-08-15 23:29:12 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - POST "/students/add", parameters={}
+2024-08-15 23:29:12 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.tusen.springBootProject.rest.StudentsRestController#addStudents(Students)
+2024-08-15 23:29:12 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Students{id=0, firstName='Grill', lastName='Hat', email='grill@gmail.com'}]
+2024-08-15 23:29:12 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json]
+2024-08-15 23:29:12 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Students{id=20, firstName='Grill', lastName='Hat', email='grill@gmail.com'}]
+2024-08-15 23:29:12 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-08-15 23:29:56 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - POST "/students/add", parameters={}
+2024-08-15 23:29:56 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.tusen.springBootProject.rest.StudentsRestController#addStudents(Students)
+2024-08-15 23:29:56 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Students{id=0, firstName='Iron', lastName='Jack', email='iron@gmail.com'}]
+2024-08-15 23:29:56 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json]
+2024-08-15 23:29:56 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Students{id=21, firstName='Iron', lastName='Jack', email='iron@gmail.com'}]
+2024-08-15 23:29:56 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-08-15 23:30:35 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - POST "/students/add", parameters={}
+2024-08-15 23:30:35 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.tusen.springBootProject.rest.StudentsRestController#addStudents(Students)
+2024-08-15 23:30:35 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Students{id=0, firstName='King', lastName='Long', email='long@gmail.com'}]
+2024-08-15 23:30:35 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json]
+2024-08-15 23:30:35 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Students{id=22, firstName='King', lastName='Long', email='long@gmail.com'}]
+2024-08-15 23:30:35 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-08-15 23:30:54 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - POST "/students/add", parameters={}
+2024-08-15 23:30:54 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.tusen.springBootProject.rest.StudentsRestController#addStudents(Students)
+2024-08-15 23:30:54 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Students{id=0, firstName='Teddy', lastName='GSD', email='teddy@gmail.com'}]
+2024-08-15 23:30:54 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json]
+2024-08-15 23:30:54 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Students{id=23, firstName='Teddy', lastName='GSD', email='teddy@gmail.com'}]
+2024-08-15 23:30:54 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-08-15 23:31:27 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - POST "/students/add", parameters={}
+2024-08-15 23:31:27 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.tusen.springBootProject.rest.StudentsRestController#addStudents(Students)
+2024-08-15 23:31:27 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Students{id=0, firstName='Bell', lastName='Ross', email='bell@gmail.com'}]
+2024-08-15 23:31:27 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json]
+2024-08-15 23:31:27 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Students{id=24, firstName='Bell', lastName='Ross', email='bell@gmail.com'}]
+2024-08-15 23:31:27 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-08-15 23:31:50 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - POST "/students/add", parameters={}
+2024-08-15 23:31:50 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.tusen.springBootProject.rest.StudentsRestController#addStudents(Students)
+2024-08-15 23:31:50 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Students{id=0, firstName='Ruby', lastName='Gess', email='ruby@gmail.com'}]
+2024-08-15 23:31:50 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json]
+2024-08-15 23:31:50 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Students{id=25, firstName='Ruby', lastName='Gess', email='ruby@gmail.com'}]
+2024-08-15 23:31:50 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-08-15 23:32:07 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - POST "/students/add", parameters={}
+2024-08-15 23:32:07 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.tusen.springBootProject.rest.StudentsRestController#addStudents(Students)
+2024-08-15 23:32:07 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Students{id=0, firstName='Irfan', lastName='Homan', email='irfan@gmail.com'}]
+2024-08-15 23:32:07 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json]
+2024-08-15 23:32:07 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Students{id=26, firstName='Irfan', lastName='Homan', email='irfan@gmail.com'}]
+2024-08-15 23:32:07 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-08-15 23:32:26 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - POST "/students/add", parameters={}
+2024-08-15 23:32:26 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.tusen.springBootProject.rest.StudentsRestController#addStudents(Students)
+2024-08-15 23:32:26 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Students{id=0, firstName='Babu', lastName='Jumbo', email='babu@gmail.com'}]
+2024-08-15 23:32:26 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json]
+2024-08-15 23:32:26 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Students{id=27, firstName='Babu', lastName='Jumbo', email='babu@gmail.com'}]
+2024-08-15 23:32:26 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-08-15 23:32:49 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - POST "/students/add", parameters={}
+2024-08-15 23:32:49 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.tusen.springBootProject.rest.StudentsRestController#addStudents(Students)
+2024-08-15 23:32:49 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Students{id=0, firstName='Kore', lastName='Lorea', email='kore@gmail.com'}]
+2024-08-15 23:32:49 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json]
+2024-08-15 23:32:49 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Students{id=28, firstName='Kore', lastName='Lorea', email='kore@gmail.com'}]
+2024-08-15 23:32:49 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-08-15 23:33:05 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - POST "/students/add", parameters={}
+2024-08-15 23:33:05 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.tusen.springBootProject.rest.StudentsRestController#addStudents(Students)
+2024-08-15 23:33:05 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Students{id=0, firstName='Ching', lastName='Leong', email='ching@gmail.com'}]
+2024-08-15 23:33:05 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json]
+2024-08-15 23:33:05 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Students{id=29, firstName='Ching', lastName='Leong', email='ching@gmail.com'}]
+2024-08-15 23:33:05 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-08-15 23:33:19 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - POST "/students/add", parameters={}
+2024-08-15 23:33:19 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.tusen.springBootProject.rest.StudentsRestController#addStudents(Students)
+2024-08-15 23:33:19 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Students{id=0, firstName='Tan', lastName='Sri', email='tan@gmail.com'}]
+2024-08-15 23:33:19 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json]
+2024-08-15 23:33:19 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Students{id=30, firstName='Tan', lastName='Sri', email='tan@gmail.com'}]
+2024-08-15 23:33:19 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-08-15 23:33:32 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - POST "/students/add", parameters={}
+2024-08-15 23:33:32 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.tusen.springBootProject.rest.StudentsRestController#addStudents(Students)
+2024-08-15 23:33:32 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Students{id=0, firstName='Pan', lastName='Mee', email='pan@gmail.com'}]
+2024-08-15 23:33:32 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json]
+2024-08-15 23:33:32 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Students{id=31, firstName='Pan', lastName='Mee', email='pan@gmail.com'}]
+2024-08-15 23:33:32 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-08-15 23:33:48 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - POST "/students/add", parameters={}
+2024-08-15 23:33:48 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.tusen.springBootProject.rest.StudentsRestController#addStudents(Students)
+2024-08-15 23:33:48 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Students{id=0, firstName='Mee', lastName='Kitchup', email='mee@gmail.com'}]
+2024-08-15 23:33:48 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json]
+2024-08-15 23:33:48 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Students{id=32, firstName='Mee', lastName='Kitchup', email='mee@gmail.com'}]
+2024-08-15 23:33:48 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-08-15 23:34:04 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - POST "/students/add", parameters={}
+2024-08-15 23:34:04 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.tusen.springBootProject.rest.StudentsRestController#addStudents(Students)
+2024-08-15 23:34:04 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Students{id=0, firstName='Maggi', lastName='Goreng', email='maggi@gmail.com'}]
+2024-08-15 23:34:04 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json]
+2024-08-15 23:34:04 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Students{id=33, firstName='Maggi', lastName='Goreng', email='maggi@gmail.com'}]
+2024-08-15 23:34:04 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-08-15 23:34:43 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/students/findAll", parameters={}
+2024-08-15 23:34:43 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.tusen.springBootProject.rest.StudentsRestController#findStudent(int, int)
+2024-08-15 23:34:43 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-08-15 23:34:43 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[Students{id=17, firstName='Apple', lastName='Ball', email='apple@gmail.com'}, Students{id=18, first (truncated)...]
+2024-08-15 23:34:43 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-08-15 23:36:03 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/students/findAll?page=1&size=10", parameters={masked}
+2024-08-15 23:36:03 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.tusen.springBootProject.rest.StudentsRestController#findStudent(int, int)
+2024-08-15 23:36:03 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-08-15 23:36:03 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[Students{id=27, firstName='Babu', lastName='Jumbo', email='babu@gmail.com'}, Students{id=28, firstN (truncated)...]
+2024-08-15 23:36:03 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-08-15 23:36:16 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/students/findAll?page=0&size=10", parameters={masked}
+2024-08-15 23:36:16 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.tusen.springBootProject.rest.StudentsRestController#findStudent(int, int)
+2024-08-15 23:36:16 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-08-15 23:36:16 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[Students{id=17, firstName='Apple', lastName='Ball', email='apple@gmail.com'}, Students{id=18, first (truncated)...]
+2024-08-15 23:36:16 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-08-15 23:36:50 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/students/18", parameters={}
+2024-08-15 23:36:50 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.tusen.springBootProject.rest.StudentsRestController#getStudents(int)
+2024-08-15 23:36:50 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-08-15 23:36:50 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Optional[Students{id=18, firstName='Car', lastName='Dog', email='car@gmail.com'}]]
+2024-08-15 23:36:50 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-08-15 23:37:00 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/students/27", parameters={}
+2024-08-15 23:37:00 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.tusen.springBootProject.rest.StudentsRestController#getStudents(int)
+2024-08-15 23:37:00 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-08-15 23:37:00 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Optional[Students{id=27, firstName='Babu', lastName='Jumbo', email='babu@gmail.com'}]]
+2024-08-15 23:37:00 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-08-15 23:37:12 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - DELETE "/students/19", parameters={}
+2024-08-15 23:37:12 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.tusen.springBootProject.rest.StudentsRestController#deleteStudents(int)
+2024-08-15 23:37:12 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2024-08-15 23:37:12 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing ["Successfully deleted student id : 19"]
+2024-08-15 23:37:12 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-08-15 23:37:31 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/students/19", parameters={}
+2024-08-15 23:37:31 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.tusen.springBootProject.rest.StudentsRestController#getStudents(int)
+2024-08-15 23:37:31 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.tusen.springBootProject.rest.StudentsRestController#handleException(StudentsNotFoundException)
+2024-08-15 23:37:31 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-08-15 23:37:31 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.tusen.springBootProject.rest.StudentErrorResponse@6b3bcbcb]
+2024-08-15 23:37:31 [http-nio-8080-exec-7] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.tusen.springBootProject.rest.StudentsNotFoundException: Student id not found : 19]
+2024-08-15 23:37:31 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2024-08-15 23:37:51 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/students/20", parameters={}
+2024-08-15 23:37:51 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.tusen.springBootProject.rest.StudentsRestController#getStudents(int)
+2024-08-15 23:37:51 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-08-15 23:37:51 [http-nio-8080-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Optional[Students{id=20, firstName='Grill', lastName='Hat', email='grill@gmail.com'}]]
+2024-08-15 23:37:51 [http-nio-8080-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-08-15 23:38:33 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/students/update", parameters={}
+2024-08-15 23:38:33 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.tusen.springBootProject.rest.StudentsRestController#updateStudents(Students)
+2024-08-15 23:38:33 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [Students{id=20, firstName='Grillv2', lastName='Hatv2', email='grillv2@gmail.com'}]
+2024-08-15 23:38:33 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json]
+2024-08-15 23:38:33 [http-nio-8080-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [Students{id=20, firstName='Grillv2', lastName='Hatv2', email='grillv2@gmail.com'}]
+2024-08-15 23:38:33 [http-nio-8080-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+2024-08-15 23:38:46 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/students/third-party-api", parameters={}
+2024-08-15 23:38:46 [http-nio-8080-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.tusen.springBootProject.rest.StudentsRestController#getCustomData()
+2024-08-15 23:38:46 [http-nio-8080-exec-10] DEBUG o.s.w.r.f.client.ExchangeFunctions - [7129abdf] HTTP GET https://catfact.ninja/fact
+2024-08-15 23:38:46 [http-nio-8080-exec-10] DEBUG o.s.w.c.r.async.WebAsyncManager - Started async request for "/students/third-party-api"
+2024-08-15 23:38:46 [http-nio-8080-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Exiting but response remains open for further handling
+2024-08-15 23:38:47 [reactor-http-nio-2] DEBUG o.s.w.r.f.client.ExchangeFunctions - [7129abdf] [67f160d2-1] Response 200 OK
+2024-08-15 23:38:47 [reactor-http-nio-2] DEBUG org.springframework.web.HttpLogging - [7129abdf] [67f160d2-1] Decoded [com.tusen.springBootProject.entity.CatFactNinja@1f626301]
+2024-08-15 23:38:47 [reactor-http-nio-2] DEBUG o.s.w.c.r.async.WebAsyncManager - Async result set to: com.tusen.springBootProject.entity.CatFactNinjaCustom@5ad32fdb for "/students/third-party-api"
+2024-08-15 23:38:47 [reactor-http-nio-2] DEBUG o.s.w.c.r.async.WebAsyncManager - Performing async dispatch for "/students/third-party-api"
+2024-08-15 23:38:47 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - "ASYNC" dispatch for GET "/students/third-party-api", parameters={}
+2024-08-15 23:38:47 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Resume with async result [com.tusen.springBootProject.entity.CatFactNinjaCustom@5ad32fdb]
+2024-08-15 23:38:47 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-08-15 23:38:47 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [com.tusen.springBootProject.entity.CatFactNinjaCustom@5ad32fdb]
+2024-08-15 23:38:47 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ASYNC" dispatch, status 200
+2024-08-15 23:38:50 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/students/third-party-api", parameters={}
+2024-08-15 23:38:50 [http-nio-8080-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.tusen.springBootProject.rest.StudentsRestController#getCustomData()
+2024-08-15 23:38:50 [http-nio-8080-exec-1] DEBUG o.s.w.r.f.client.ExchangeFunctions - [66d28b6a] HTTP GET https://catfact.ninja/fact
+2024-08-15 23:38:50 [http-nio-8080-exec-1] DEBUG o.s.w.c.r.async.WebAsyncManager - Started async request for "/students/third-party-api"
+2024-08-15 23:38:50 [http-nio-8080-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Exiting but response remains open for further handling
+2024-08-15 23:38:50 [reactor-http-nio-2] DEBUG o.s.w.r.f.client.ExchangeFunctions - [66d28b6a] [67f160d2-2] Response 200 OK
+2024-08-15 23:38:50 [reactor-http-nio-2] DEBUG org.springframework.web.HttpLogging - [66d28b6a] [67f160d2-2] Decoded [com.tusen.springBootProject.entity.CatFactNinja@3392359a]
+2024-08-15 23:38:50 [reactor-http-nio-2] DEBUG o.s.w.c.r.async.WebAsyncManager - Async result set to: com.tusen.springBootProject.entity.CatFactNinjaCustom@68b79b69 for "/students/third-party-api"
+2024-08-15 23:38:50 [reactor-http-nio-2] DEBUG o.s.w.c.r.async.WebAsyncManager - Performing async dispatch for "/students/third-party-api"
+2024-08-15 23:38:50 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - "ASYNC" dispatch for GET "/students/third-party-api", parameters={}
+2024-08-15 23:38:50 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Resume with async result [com.tusen.springBootProject.entity.CatFactNinjaCustom@68b79b69]
+2024-08-15 23:38:50 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-08-15 23:38:50 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [com.tusen.springBootProject.entity.CatFactNinjaCustom@68b79b69]
+2024-08-15 23:38:50 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ASYNC" dispatch, status 200
+2024-08-15 23:38:53 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/students/third-party-api", parameters={}
+2024-08-15 23:38:53 [http-nio-8080-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.tusen.springBootProject.rest.StudentsRestController#getCustomData()
+2024-08-15 23:38:53 [http-nio-8080-exec-4] DEBUG o.s.w.r.f.client.ExchangeFunctions - [615c7031] HTTP GET https://catfact.ninja/fact
+2024-08-15 23:38:53 [http-nio-8080-exec-4] DEBUG o.s.w.c.r.async.WebAsyncManager - Started async request for "/students/third-party-api"
+2024-08-15 23:38:53 [http-nio-8080-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Exiting but response remains open for further handling
+2024-08-15 23:38:54 [reactor-http-nio-2] DEBUG o.s.w.r.f.client.ExchangeFunctions - [615c7031] [67f160d2-3] Response 200 OK
+2024-08-15 23:38:54 [reactor-http-nio-2] DEBUG org.springframework.web.HttpLogging - [615c7031] [67f160d2-3] Decoded [com.tusen.springBootProject.entity.CatFactNinja@3c5c153a]
+2024-08-15 23:38:54 [reactor-http-nio-2] DEBUG o.s.w.c.r.async.WebAsyncManager - Async result set to: com.tusen.springBootProject.entity.CatFactNinjaCustom@3c7b1dd2 for "/students/third-party-api"
+2024-08-15 23:38:54 [reactor-http-nio-2] DEBUG o.s.w.c.r.async.WebAsyncManager - Performing async dispatch for "/students/third-party-api"
+2024-08-15 23:38:54 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - "ASYNC" dispatch for GET "/students/third-party-api", parameters={}
+2024-08-15 23:38:54 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Resume with async result [com.tusen.springBootProject.entity.CatFactNinjaCustom@3c7b1dd2]
+2024-08-15 23:38:54 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-08-15 23:38:54 [http-nio-8080-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [com.tusen.springBootProject.entity.CatFactNinjaCustom@3c7b1dd2]
+2024-08-15 23:38:54 [http-nio-8080-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ASYNC" dispatch, status 200
+2024-08-15 23:38:56 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/students/third-party-api", parameters={}
+2024-08-15 23:38:56 [http-nio-8080-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.tusen.springBootProject.rest.StudentsRestController#getCustomData()
+2024-08-15 23:38:56 [http-nio-8080-exec-6] DEBUG o.s.w.r.f.client.ExchangeFunctions - [1357c454] HTTP GET https://catfact.ninja/fact
+2024-08-15 23:38:56 [http-nio-8080-exec-6] DEBUG o.s.w.c.r.async.WebAsyncManager - Started async request for "/students/third-party-api"
+2024-08-15 23:38:56 [http-nio-8080-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Exiting but response remains open for further handling
+2024-08-15 23:38:56 [reactor-http-nio-2] DEBUG o.s.w.r.f.client.ExchangeFunctions - [1357c454] [67f160d2-4] Response 200 OK
+2024-08-15 23:38:56 [reactor-http-nio-2] DEBUG org.springframework.web.HttpLogging - [1357c454] [67f160d2-4] Decoded [com.tusen.springBootProject.entity.CatFactNinja@1e67c122]
+2024-08-15 23:38:56 [reactor-http-nio-2] DEBUG o.s.w.c.r.async.WebAsyncManager - Async result set to: com.tusen.springBootProject.entity.CatFactNinjaCustom@4a5f7d54 for "/students/third-party-api"
+2024-08-15 23:38:56 [reactor-http-nio-2] DEBUG o.s.w.c.r.async.WebAsyncManager - Performing async dispatch for "/students/third-party-api"
+2024-08-15 23:38:56 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - "ASYNC" dispatch for GET "/students/third-party-api", parameters={}
+2024-08-15 23:38:56 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Resume with async result [com.tusen.springBootProject.entity.CatFactNinjaCustom@4a5f7d54]
+2024-08-15 23:38:56 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-08-15 23:38:56 [http-nio-8080-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [com.tusen.springBootProject.entity.CatFactNinjaCustom@4a5f7d54]
+2024-08-15 23:38:56 [http-nio-8080-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ASYNC" dispatch, status 200
+2024-08-15 23:39:06 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-15 23:39:06 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-08-15 23:39:06 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
